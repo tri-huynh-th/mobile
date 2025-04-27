@@ -1,6 +1,12 @@
 pluginManagement {
     repositories {
-        google()
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -13,6 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "StudySmart"
-include(":app")
- 
+rootProject.name = "Shopper"
+include(":presentation")
+include(":data")
+include(":domain")
