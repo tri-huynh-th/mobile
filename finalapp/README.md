@@ -1,4 +1,4 @@
-# lap trinh mobile-eCommerce
+# Lập trình mobile-eCommerce
 
 Nguyễn Văn Cường-2051120210
 Nguyễn Đình Dũng-2251120276
